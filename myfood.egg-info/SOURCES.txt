@@ -1,0 +1,9 @@
+README.md
+setup.py
+myfood/__init__.py
+myfood/app.py
+myfood.egg-info/PKG-INFO
+myfood.egg-info/SOURCES.txt
+myfood.egg-info/dependency_links.txt
+myfood.egg-info/requires.txt
+myfood.egg-info/top_level.txt
