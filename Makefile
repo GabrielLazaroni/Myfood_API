@@ -1,4 +1,6 @@
 install:
+	pip install -e .['dev']
+
 clean:
 	@find ./ -name*.pyc -exec rm -f-{}^\;
 	@find ./ -name'Thumbs.db'-exec rm -f{}\;
@@ -16,4 +18,4 @@ clean:
 	pip uninstall myfood
 
 test:
-	pytest tests/ -v
+	pytest tests/ -v --cov=myfood
